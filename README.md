@@ -58,9 +58,7 @@ If you want to verify the database service, you can connect using MySQL Workbenc
 ## 🖥️ Running Llama 3.1 on Google Colab
 
 To connect the Django server to the Llama 3.1 model:
-1. Open Google Colab and ensure GPU runtime is enabled.
-2. Load Llama 3.1 (8B) in your notebook.
-3. Start an API server in Colab to interact with the Django backend.
+//TODO
 
 ## 🏗️ Contributing
 Feel free to fork this repository and contribute! Open an issue for bugs or feature requests.
