@@ -17,7 +17,7 @@ Ensure you have the following installed on your system:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/docker-django-llama-colab.git
+git clone https://github.com/luiz-bcardoso/docker-django-llama-colab
 cd docker-django-llama-colab
 ```
 
