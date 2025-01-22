@@ -10,7 +10,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1 
 
 # Atualiza o pip
-RUN pip install --upgrade pip 
+RUN pip install --upgrade pip
 
 # Copia os requirements para o /app e instala as dependências
 COPY requirements.txt /app/
@@ -23,4 +23,4 @@ COPY /projeto/ /app/
 EXPOSE 8000
 
 # Faz o migrations para o banco MySQL e inicia o servidor
-CMD ["sh", "-c", "python projeto/manage.py loaddata projeto/dumpdata.json && python projeto/manage.py runserver 0.0.0.0:8000"]
+CMD ["sh", "-c", "python projeto/manage.py migrate && python projeto/manage.py loaddata projeto/dumpdata.json && python projeto/manage.py runserver 0.0.0.0:8000"]
