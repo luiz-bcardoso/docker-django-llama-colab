@@ -26,7 +26,7 @@ Create a `.env` file in the project's root directory and add the following confi
 
 ```env
 # Django settings
-DJANGO_SECRET_KEY='your-secret-key'
+DJANGO_SECRET_KEY='=%6aqk0p^aux0qvolqn_7efyj(@wh*wtc_!n10u8_o4!l#k6)h'
 DJANGO_DEBUG=True
 DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
 
@@ -36,7 +36,7 @@ MYSQL_DATABASE=docker-django-llama-colab
 MYSQL_USER=your-mysql-user
 MYSQL_PASSWORD=your-mysql-password
 ```
-> **Note:** Replace `your-secret-key`, `your-root-password`, `your-mysql-user`, and `your-mysql-password` with your actual credentials.
+> **Note:** Replace `your-root-password`, `your-mysql-user`, and `your-mysql-password` with your actual credentials.
 
 ### 3️⃣ Build and Run the Docker Containers
 
